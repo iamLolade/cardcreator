@@ -15,7 +15,7 @@
   }
   
   body {
-    background: url("back.jpg") no-repeat fixed;
+    background: url("./images/background.jpg") no-repeat fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -38,7 +38,7 @@
     min-width: 270px;
     min-height: 100px;
     border-radius: 10px;
-    background: url("pp.jpg") no-repeat fixed;
+    background: url("./images/cardbg.jpg") no-repeat fixed;
     background-size: contain;
     font-size: 24px;
     color: #eee;
