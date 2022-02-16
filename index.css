@@ -1,0 +1,134 @@
+:root {
+    --yellow: #fbf3ab;
+    --light-pink: #f0b9dd;
+    --lavender: #c7b9ff;
+    --deep-pink: #f04c86;
+    --raisin: #2b283a;
+    --white: #fff;
+  }
+  
+  *,
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: url("back.jpg") no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    font-family: "Karla", sans-serif;
+  }
+  
+  .container {
+      margin-top: 100px;
+    min-width: 500px;
+    border-radius: 30px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.315);
+  }
+  
+  .card {
+    min-width: 270px;
+    min-height: 100px;
+    border-radius: 10px;
+    background: url("pp.jpg") no-repeat fixed;
+    background-size: contain;
+    font-size: 24px;
+    color: #eee;
+    padding: 2.2em;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  }
+  
+  .card p {
+    font-weight: 700;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  form * {
+    padding: 0.5em;
+    font-size: 1.3rem;
+    font-family: inherit;
+  }
+  
+  form label {
+    font-weight: 700;
+  }
+  
+  form *:not(label) {
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  input [type="text"] {
+    text-indent: 30px;
+  }
+  
+  #recipient {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+  }
+  
+  #greeting-display {
+    letter-spacing: 3px;
+    font-size: 1.3em;
+    position: absolute;
+    top: 40%;
+    width: 77%;
+    text-align: center;
+  }
+  
+  #sender {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #008cba;
+    color: white;
+    transition-duration: 0.8s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: transparent;
+    color: black;
+    font-size: 23px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    border: 2px solid #008cba;
+  }
+  
+  footer {
+    text-align: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+  }
