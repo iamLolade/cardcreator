@@ -1,4 +1,4 @@
-# Card Creator
+# Card Generator
 
 #### Single-page application, implementing JavaScript Document Object Model manipulation
 
